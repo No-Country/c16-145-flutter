@@ -57,6 +57,9 @@ class _LoginForm extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
+
+    final loginForm = ref.watch(loginFormProvider);
+
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 25),
       child: Column(
