@@ -97,7 +97,7 @@ class _LoginForm extends ConsumerWidget {
               TextButton(
                 child: Text("Registrarme!"),
                 onPressed: () {
-                  // context.push('/create_account');
+                  context.push('/signup');
                 },
               )
             ],
